@@ -1,0 +1,1054 @@
+Dependencies for Project 'msc_udisk', Target 'USBFS_msc_udisk': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (..\src\app.c)(0x62DA3F12)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/app.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_hw.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_core.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_core.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_dev.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\class\msc\usb_msc.h)(0x62DA3F42)
+F (..\src\gd32f4xx_hw.c)(0x62DA3F12)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f4xx_hw.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_hw.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+F (..\src\gd32f4xx_it.c)(0x62DA3F12)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f4xx_it.o -MD)
+I (..\inc\gd32f4xx_it.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_core.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_dev.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usbd_int.h)(0x62DA3F42)
+F (..\src\sram_msd.c)(0x62DA3F12)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/sram_msd.o -MD)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\inc\sram_msd.h)(0x62DA3F12)
+F (..\src\usbd_storage_msd.c)(0x62DA3F12)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/usbd_storage_msd.o -MD)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\inc\sram_msd.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_mem.h)(0x62DA3F41)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+F (..\src\system_gd32f4xx.c)(0x62DA3F12)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/system_gd32f4xx.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+F (..\..\..\Utilities\gd32f427v_start.c)(0x62DA3F16)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f427v_start.o -MD)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Source\gd32f4xx_exti.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f4xx_exti.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Source\gd32f4xx_gpio.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f4xx_gpio.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Source\gd32f4xx_misc.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f4xx_misc.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Source\gd32f4xx_pmu.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f4xx_pmu.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Source\gd32f4xx_rcu.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f4xx_rcu.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Source\gd32f4xx_syscfg.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f4xx_syscfg.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Source\gd32f4xx_timer.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f4xx_timer.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Source\gd32f4xx_usart.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/gd32f4xx_usart.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Source\drv_usb_core.c)(0x62DA3F42)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/drv_usb_core.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_hw.h)(0x62DA3F42)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Source\drv_usb_dev.c)(0x62DA3F42)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/drv_usb_dev.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_hw.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_dev.h)(0x62DA3F42)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Source\drv_usbd_int.c)(0x62DA3F42)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/drv_usbd_int.o -MD)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usbd_int.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_dev.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_transc.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_core.h)(0x62DA3F41)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Source\usbd_core.c)(0x62DA3F42)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/usbd_core.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_core.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_dev.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_enum.h)(0x62DA3F41)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_hw.h)(0x62DA3F42)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Source\usbd_enum.c)(0x62DA3F42)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/usbd_enum.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_enum.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_core.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_dev.h)(0x62DA3F42)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x603507D0)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Source\usbd_transc.c)(0x62DA3F42)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/usbd_transc.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_enum.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_core.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_dev.h)(0x62DA3F42)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_transc.h)(0x62DA3F42)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Source\usbd_msc_bbb.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/usbd_msc_bbb.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_enum.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_core.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_dev.h)(0x62DA3F42)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_bbb.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\class\msc\msc_bbb.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_mem.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_scsi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\class\msc\msc_scsi.h)(0x62DA3F42)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Source\usbd_msc_core.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/usbd_msc_core.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_enum.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_core.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_dev.h)(0x62DA3F42)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_bbb.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\class\msc\msc_bbb.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_mem.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_scsi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\class\msc\msc_scsi.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_core.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\class\msc\usb_msc.h)(0x62DA3F42)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+F (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Source\usbd_msc_scsi.c)(0x62DA3F41)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../inc -I ../../../Utilities -I ../../../../GD32F4xx_Firmware_Library/CMSIS/GD/GD32F4xx/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_standard_peripheral/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/class/msc/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/device/core/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/driver/Include -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/class/msc -I ../../../../GD32F4xx_Firmware_Library/GD32F4xx_usb_library/ustd/common-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F427 -D_RTE_ -DGD32F427 -DUSE_USB_FS-o ./usbhs_object/usbd_msc_scsi.o -MD)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_enum.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\core\Include\usbd_core.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_core.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_regs.h)(0x62DA3F42)
+I (..\inc\usb_conf.h)(0x62DA3F12)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h)(0x62DA3F41)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (C:\Users\wu\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h)(0x62DA3F41)
+I (..\inc\gd32f4xx_libopt.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h)(0x62DA3F41)
+I (..\..\..\Utilities\gd32f427v_start.h)(0x62DA3F16)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\common\usb_ch9_std.h)(0x62DA3F42)
+I (..\inc\usbd_conf.h)(0x62DA3F12)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\driver\Include\drv_usb_dev.h)(0x62DA3F42)
+I (C:\Keil_v5\ARM\ARMCLANG\include\wchar.h)(0x603507D0)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_bbb.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\class\msc\msc_bbb.h)(0x62DA3F42)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_mem.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\device\class\msc\Include\usbd_msc_scsi.h)(0x62DA3F41)
+I (..\..\..\..\GD32F4xx_Firmware_Library\GD32F4xx_usb_library\ustd\class\msc\msc_scsi.h)(0x62DA3F42)
+F (..\..\..\..\GD32F4xx_Firmware_Library\CMSIS\GD\GD32F4xx\Source\ARM\startup_gd32f407_427.s)(0x62DA3F40)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3-I./RTE/_USBFS_msc_udisk-IC:/Users/wu/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/wu/AppData/Local/Arm/Packs/GigaDevice/GD32F4xx_DFP/3.0.3/Device/F4XX/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 535" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"GD32F427 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./usbhs_object/startup_gd32f407_427.o)
+F (..\readme.txt)(0x62DA3F12)()
